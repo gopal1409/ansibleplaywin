@@ -15,9 +15,11 @@
     win_unzip:
       src: c:\\Temp\\GoogleChromeEnterpriseBundle64.zip
       dest: c:\\Temp\\crome 
-  - name: install \crome
+  - name: install 7 zip 
+  
     win_package:
-    win_package:
-      path: https://download.microsoft.com/download/A/F/0/AF0071F3-B198-4A35-AA90-C68D103BDCCF/rdcman.msi
-      product_id: '{0240359E-6A4C-4884-9E94-B397A02D893C}'
-      state: present
+      path: https://d3.7-zip.org/a/7z2107-x64.exe
+      arguments:
+      - /install
+      - /passive
+      - /norestart
