@@ -16,7 +16,7 @@
       src: c:\\Temp\\GoogleChromeEnterpriseBundle64.zip
       dest: c:\\Temp\\crome 
   - name: install 7 zip 
-    ansible.windows.win_package:
+    windows.win_package:
       product_id: 7-Zip
       arguments: /S
       state: present
