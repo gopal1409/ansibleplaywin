@@ -16,7 +16,6 @@
       src: c:\\Temp\\GoogleChromeEnterpriseBundle64.zip
       dest: c:\\Temp\\crome 
   - name: install 7 zip 
-  
     win_package:
       path: https://d3.7-zip.org/a/7z2107-x64.exe
       product_id: 7-Zip
