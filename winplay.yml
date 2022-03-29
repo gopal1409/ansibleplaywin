@@ -20,4 +20,4 @@
       path: c:\\Temp\\crome\\Installers\\GoogleChromeStandaloneEnterprise64.msi
       wait: yes
       state: present 
-    when: ACTION == "Install"
+      arguments: /install /passive /norestart
