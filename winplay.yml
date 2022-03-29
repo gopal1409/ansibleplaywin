@@ -18,6 +18,5 @@
   - name: install \crome
     win_package:
       path: c:\\Temp\\crome\\Installers\\GoogleChromeStandaloneEnterprise64.msi
-      wait: yes
       state: present 
       arguments: /install /passive /norestart
