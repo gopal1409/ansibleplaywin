@@ -20,4 +20,4 @@
       path: https://d3.7-zip.org/a/7z2107-x64.exe
       product_id: 7-Zip
       arguments: /s
-    become: yes
+    
